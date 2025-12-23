@@ -97,6 +97,29 @@ This allows easy reuse and deployment.
 This project demonstrates how machine learning can be effectively applied to real-world loan approval and credit risk assessment problems. By prioritizing recall and minimizing false negatives, the model aligns with industry practices where the cost of approving risky loans outweighs rejecting safe applicants.
 
 ---
+## 🚀 How to Run the Project
+
+1. Clone the repository
+
+```
+git clone https://github.com/shivamsingh-itds/Loan-Approval-Prediction-Model.git
+cd Loan-Approval-Prediction-Model
+```
+2.  Create & activate virtual environment
+```
+python -m venv ML
+ML\Scripts\activate
+```
+3. Install dependencies
+```
+pip install -r requirements.txt
+```
+4. Train the model
+```
+python -m src.model_pipeline
+```
+
+---
 
 ## 🚀 Future Improvements
 - Hyperparameter tuning
